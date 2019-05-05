@@ -1,0 +1,76 @@
+Created variables,,"NOTE: some variables labeled ""intermediate"" are ones created in the code to build variables of interest but should not be used on their own"
+Name,Description,Not_Used_NY_Update
+ch_pop_since00,"""Change in pop since 2000""",X
+pctch_pop_since00,"""Percent change in pop since 2000""",X
+ch_per_col_since00,"""Change in percent college since 2000""",X
+pctch_per_col_since00,"""Percent change in percent college since 2000""",X
+ch_real_mhval_since00,"""Change in median real home value since 2000""",X
+pctch_real_mhval_since00,"""Percent change in median real home value since 2000""",X
+ch_real_mrent_since00,"""Change in median real gross rent since 2000""",X
+pctch_real_mrent_since00,"""Percent change in median real gross rent since 2000""",X
+ch_all_li_count_since00,"""Change in LI households since 2000""",X
+pctch_all_li_count_since00,"""Percent change in LI households since 2000""",X
+ch_per_all_li_since00,"""Change in percent LI since 2000""",X
+pctch_per_all_li_since00,"""Percent change in percent LI since 2000""",X
+ch_real_hinc_since00,"""Change in real median income since 2000""",X
+pctch_real_hinc_since00,"""Percent change in real median income since 2000""",X
+ch_pop_since90,"""Change in pop 1990-2000""",X
+pctch_pop_since90,"""Percent change in pop 1990-2000""",X
+ch_per_col_since90,"""Change in percent college 1990-2000""",X
+pctch_per_col_since90,"""Percent change in percent college 1990-2000""",X
+ch_real_mhval_since90,"""Change in median real home value 1990-2000""",X
+pctch_real_mhval_since90,"""Percent change in median real home value 1990-2000""",X
+ch_real_mrent_since90,"""Change in median real gross rent 1990-2000""",X
+pctch_real_mrent_since90,"""Percent change in median real gross rent 1990-2000""",X
+ch_all_li_count_since90,"""Change in LI households 1990-2000""",X
+pctch_all_li_count_since90,"""Percent change in LI households 1990-2000""",X
+ch_per_all_li_since90,"""Change in percent LI 1990-2000""",X
+pctch_per_all_li_since90,"""Percent change in percent LI 1990-2000""",X
+ch_real_hinc_since90,"""Change in real median income 1990-2000""",X
+pctch_real_hinc_since90,"""Percent change in real median income 1990-2000""",X
+restrict_hotmarket15,"""Real median rent > regional median in renter tracts; real home value > regional median in owner tracts""",X
+restrict_hotmarket00,"""Real median rent > regional median in renter tracts; real home value > regional median in owner tracts""",X
+restrictund_disp_flag15,"""EITHER restrict_hotmarket=1 or limig15_lessthan09=1""",X
+restrict_vulnrisk15,"""2015 count of TOD, historic housing, employment density, and restrict_hotmarket""",X
+legacy_broad_disp_type,"""Displacement categories with hotmarket and 1990s legacy gentrification""",X
+restrict_disp_type,"""Displacement categories with restrict_hotmarket""",X
+legacy_restrict_disp_type,"""Displacement categories with restrict_hotmarket and 1990s legacy gentrification""",X
+cv_legacy_broad_disp_type,"""Displacement categories with CV,  hotmarket and 1990s legacy gentrification""",X
+cv_restrict_disp_type,"""Displacement categories with CV,  restrict_hotmarket""",X
+cv_legacy_restrict_disp_type,"""Displacement categories with CV,  restrict_hotmarket and 1990s legacy gentrification""",X
+per_col*,"""Percent college educated""",
+per_nonwhite*,"""Percent minority""",
+per_rent*,"""Percent renter""",
+per_units_pre50,"""Percent of housing units built before 1950""",
+per_all_li*,"""Proportion < 80% AMI""",
+all_li_count*,"""Number of LI households (<80% AMI)""",
+real_hinc*,"""Real median household income (2015$)""",
+real_mhval*,"""Real median housing value (2015$)""",
+real_mrent*,"""Real median gross rent (2015$)",
+region,"""Region - Bay Area or individual counties""",
+ppt_ch_li_movein_since09,"""Percentage point change in low income movers 09-15""",
+rm_*,"""Regional median (Bay area or county) for X""",
+aboverm_*,"""=1 if above regional median for X""",
+pop*flag,"""=1 if population>500""",
+popgrowflag15,"""=1 if population grew 2000-15""",
+gent1_15,"""intermediate""",
+gent2_15,"""intermediate""",
+gentrisk15,"""Base year (2000) at risk of gentrification - 3/4 from shares LI, renter, college, minority""",
+lostli15,"""Lost LI households 2000-15""",
+democh15,"""Demographic change 2015 - count of above median change in college, income, or change in LI households""",
+limig15_lessthan09,"""LI migration in 2015 < 2009""",
+hotmarket15,"""either real median rent or home value are above regional median""",
+gent1_00,"""intermediate""",
+gent2_00,"""intermediate""",
+gentrisk00,"""Base year (1990) at risk of gentrification - 3/4 from shares LI, renter, college, minority""",
+lostli00,"""Lost LI households 1990-2000""",
+democh00,"""Demographic change 2000 - count of above median change in college, income, or change in LI households""",
+hotmarket00,"""either real median rent or home value are above regional median""",
+und_disp_flag15,"""EITHER hotmarket=1 or limig15_lessthan09=1""",
+vulnrisk15,"""2015 count of TOD, historic housing, employment density, and hotmarket""",
+excl_li15,"""<20% LI in 2000 and LI 2015< 2000""",
+per_incoll15,"""Percent currently in college""",
+broad_disp_type,"""Displacement categories with hotmarket""",
+*_cv,"""Coefficient of variation for variable""",
+cvcat_*,"""Category of concern for coefficient of variation""",
+cv_broad_disp_type,"""Displacement categories with CV,  hotmarket""",

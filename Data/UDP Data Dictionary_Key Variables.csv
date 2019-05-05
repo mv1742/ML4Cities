@@ -1,0 +1,68 @@
+Variable Name Generic,Variable Definition,Input/Created,Interpolated
+*_cv,"""Coefficient of variation for variable""",Created,
+aboverm_*,"""=1 if above regional median for X""",Created,
+ag25up*,Denominator for ed attainment,Input,
+asian*,NH Asian,Input,
+broad_disp_type,"""Displacement categories with hotmarket""",Created,
+ch_all_li_count,"""Change in LI households 1990-2000""",Created,
+col*,4-year college or more,Created,
+cv_broad_disp_type,"""Displacement categories with CV,  hotmarket""",Created,
+cvcat_*,"""Category of concern for coefficient of variation""",Created,
+democh*,"""Demographic change 2000 - count of above median change in college, income, or change in LI households""",Created,
+empd*,"""2014 employment density (over total area)""",Created,
+excl_li*,"""<20% LI in 2000 and LI 2015< 2000""",Created,
+gent1_*,"""intermediate""",Created,
+gent2_*,"""intermediate""",Created,
+vulnrisk*,"""Base year (2000) at risk of gentrification"" -- use local variables such as presence of affordable housing and low-income/renter/low-educated population",Created,
+hh,Total HH,Input,
+hi*,proportion 1.2 to 1.5 county mhi,Created,Y
+hinc*,Med HH Income,Input,
+hmi*,proportion 1 to 1.2 county mhi,Created,Y
+hotmarket*,"""either real median rent or home value are above regional median""",Created,
+hu,Housing Units,Input,
+li*,proportion .5 to .8 county mhi,Created,Y
+limig*_lessthan*,"""LI migration in 2015 < 2009""",Created,
+lostli*,"""Lost LI households 2000-15""",Created,
+mhval*,Median home value,Input,
+mi*,proportion .8 to 1 county mhi,Created,Y
+mrent*,Median rent,Input,
+nhwht*,NH White,Input,
+o_not_burden_li,"LI owners, not burdened",Created,Y
+o_not_burden_mhi,"MHI owners, not burdened",Created,Y
+obnotcomp_li,"LI owners, burden not computed",Created,Y
+obnotcomp_mhi,"MHI owners, burden not computed",Created,Y
+oburden_li,"LI owners, burdened",Created,Y
+oburden_mhi,"MHI owners, burdened",Created,Y
+ohu,Owner-occupied housing units,Created,Y
+ohu*,Occupied HU,Input,
+ototal_li,Total LI owners,Created,Y
+ototal_mhi,Total MHI owners,Created,Y
+per_all_li*,"""Proportion < 80% AMI""",Created,
+per_col*,"""Percent college educated""",Created,
+per_incoll*,"""Percent currently in college""",Created,
+per_nonwhite*,"""Percent minority""",Created,
+per_rent*,"""Percent renter""",Created,
+per_units_pre50,"""Percent of housing units built before 1950""",Created,
+pop*,Total Pop,Input,
+pop*flag,"""=1 if population>500""",Created,
+popgrowflag*,"""=1 if population grew 2000-15""",Created,
+ppt_ch_li_movein_since09,"""Percentage point change in low income movers 09-15""",Created,
+r_not_burden_li,"LI renters, not burdened",Created,Y
+r_not_burden_mhi,"MHI renters, not burdened",Created,Y
+rbnotcomp_li,"LI renters, burden not computed",Created,Y
+rbnotcomp_mhi,"MHI renters, burden not computed",Created,Y
+rburden_li,"LI renters, burdened",Created,Y
+rburden_mhi,"MHI renters, burdened",Created,Y
+real_hinc*,"""Real median household income (2015$)""",Created,
+real_mhval*,"""Real median housing value (2015$)""",Created,
+real_mrent*,"""Real median gross rent (2015$)",Created,
+region,"""Region - Bay Area or individual counties""",Created,
+rent*,Renter Occupied,Input,
+rhu,Renter-occupied housing units,Created,Y
+rm_*,Regional median (Bay area or county) for X,Created,
+rtotal_li,Total LI renters,Created,Y
+rtotal_mhi,Total MHI renters,Created,Y
+und_disp_flag15,"""EITHER hotmarket=1 or limig15_lessthan09=1""",Created,
+vhi*,proportion 1.5 county mhi or more,Created,Y
+vli*,proportion .5 county mhi or less,Created,Y
+gentrisk*,variables significant at <.10 in gentrification regression,Created,
